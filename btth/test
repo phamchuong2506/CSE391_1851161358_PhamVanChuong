@@ -1,0 +1,21 @@
+.menu1 {
+ 
+    color: white;
+    width:30% ;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 40px;
+}
+.menu1 ul li{
+    color: white;
+    display: inline;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 1px solid #9ac9f4;
+    border-left: 1px solid  white;
+}
+.menu1 ul a{
+    color: white;
+    text-decoration: none;
+}

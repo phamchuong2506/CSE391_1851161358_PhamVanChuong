@@ -28,7 +28,6 @@
     color: white;
     text-decoration: none;
 }
-
 .logo{
     
     color: #9ac9f4;
@@ -40,7 +39,6 @@
 }
 
 .button{
-    border-radius: 3px;
     font-family:Arial;
     padding-left: 10%;
     margin-top: 30px;
@@ -50,7 +48,6 @@
     background-color:#4385c1;
     border-radius: 3px;
     text-align: center;
-    border-radius: 3px;
     padding: 10px 30px 5px 30px;
     border: 1px solid white;
     margin-right: 30px;
@@ -59,31 +56,30 @@
     color: white;
     text-decoration: none;
 }
-.menu2{
-    color: white;
-    width: 100%;
-    padding: 1px ;  
-    font-size: 1.2em; 
-    background-color: #043867;
-    text-align: center; 
-
+#menu2 {
+	background-color: #043867;
+	font-family: Georgia, serif;
+	font-size: 1em;
 }
-.menu2 ul li{
-    color: white;
-    display: inline;
-    padding: 25px;
-    border-radius: 1px solid #9ac9f4;
-    font-size: 1.2em;
-    white-space: nowrap;
-    border-right: 1px solid;
+#menu2 li {
+	padding: 1.5em;
+	border-left: 1px solid #4385c1;
+	text-align: center;
+	width: 1%;
+	display: table-cell;
 }
-.menu2 ul a{
-    color: white;
+#menu2 li:last-of-type {
+	border-right: 1px solid #4385c1;
+}
+#menu2 a {
+	display: block;
+    padding: .5em 0;
     text-decoration: none;
+    color: white;
 }
-.menu2 li:hover{
+  
+#menu2 a:hover {
     background-color: #002342;
-
 }
 .hero{
     background-image: url(hero.jpg);
@@ -197,6 +193,8 @@ background-size: cover;
     height: 300px;
     padding: 0px 30px 60px 30px;
 }
+
+
 .product6 p {
     color: blue;
     text-decoration: none;
